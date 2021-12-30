@@ -1,0 +1,100 @@
+
+  /*Start About us*/
+  .about-us {
+    background-color: #011f29;
+  }
+  .about-us .title {
+    color: #50e750;
+    font-size: 40px;
+    padding: 50px 0;
+  }
+  .about-us img {
+    max-width: 350px;
+    object-fit: contain;
+    padding: 20px;
+  }
+  .about-us p {
+    font-size: 25px;
+    color: #fff;
+    padding-top: 70px;
+    padding-bottom: 30px;
+  }
+  .about-us .accordion {
+    font-size: 25px;
+    width: 100%;
+    padding-top: 70px;
+    padding-bottom: 30px;
+  }
+  .accordion-item {
+    background-color: #011f29;
+    color: #fff;
+    padding: 30px 30px 30px 30px;
+    border: none;
+  }
+  .accordion-button {
+    background-color: #011f29;
+    color: #50e750;
+    font-size: 30px;
+  }
+  .p-head {
+    color: #50e750;
+  }
+  .accordion-button::after {
+    margin-left: 0px;
+    margin-right: 20px;
+    border-left: solid 5px;
+    border-bottom: solid 5px;
+    transform: rotate(-45deg);
+    background-image: none;
+  }
+  .accordion-button:not(.collapsed)::after {
+    transform: rotate(133deg);
+    background-image: none;
+  }
+  .edit{
+    direction: ltr;
+  }
+  
+  @media screen and (max-width: 575px) {
+    .about-us p {
+      font-size: 22px;
+      color: #fff;
+      padding-top: 70px;
+      padding-bottom: 30px;
+    }
+    .about-us .accordion {
+      font-size: 22px;
+      color: #fff;
+      padding-top: 70px;
+      padding-bottom: 30px;
+    }
+    .accordion-item {
+      background-color: #011f29;
+      color: #fff;
+      padding: 10px 10px 10px 10px;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    .about-us p {
+      font-size: 20px;
+      color: #fff;
+      padding-top: 70px;
+      padding-bottom: 30px;
+    }
+    .about-us .accordion {
+      font-size: 20px;
+      color: #fff;
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+    .accordion-item {
+      background-color: #011f29;
+      color: #fff;
+      padding: 10px 10px 10px 10px;
+    }
+  }
+  /*End About us*/
+
+
+
+

@@ -1,0 +1,60 @@
+/*Start Navbar*/
+
+.navbar {
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+    background: rgba(204, 204, 206, 0.1);
+    padding-top: 20px;
+  }
+  nav .navbar-brand {
+    flex-grow: 2;
+  }
+  nav .logo-pic img {
+    max-width: 250px;
+    object-fit: cover;
+  }
+  nav .navbar-nav .nav-item {
+    padding: 10px;
+  }
+  nav .navbar-nav .nav-item .nav-link {
+    font-size: 18px;
+    color: #011f29;
+    font-weight: 600;
+  }
+  nav .navbar-nav .nav-item .nav-link:hover {
+    color: #01d662;
+  }
+  
+  /*End Navbar*/
+
+  /*Media Queries*/
+
+  @media screen and (max-width: 520px) {
+    
+    nav .navbar-brand {
+      flex-grow: 1;
+    }
+    nav .logo-pic img {
+      max-width: 225px;
+    }
+  }
+  @media screen and (max-width: 400px) {
+ 
+    nav .logo-pic img {
+      max-width: 200px;
+    }
+  }
+  @media screen and (max-width: 312.5px) {
+  
+    nav .logo-pic img {
+      max-width: 180px;
+    }
+  }
+  /*End Slider*/
+  
+  
+
+
+
+
